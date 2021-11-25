@@ -4,14 +4,14 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
 
-<AnchorPane prefHeight="500.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.librarycontrolfx.controllers.ClientMenuController">
+<AnchorPane prefHeight="500.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.librarycontrolfx.controllers.PublicationMenuController">
     <children>
         <SplitPane dividerPositions="0.15843270868824533" layoutX="-3.0" layoutY="1.0" orientation="VERTICAL" prefHeight="494.0" prefWidth="700.0">
             <items>
                 <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="152.0" prefWidth="579.0">
                     <children>
                         <Button layoutX="8.0" layoutY="3.0" mnemonicParsing="false" onAction="#returnButton" text="&lt;- Voltar" />
-                        <Label layoutX="213.0" layoutY="16.0" text="Cadastro de Usuários">
+                        <Label layoutX="213.0" layoutY="16.0" text="Cadastro de Publicações">
                             <font>
                                 <Font name="System Italic" size="29.0" />
                             </font></Label>
@@ -23,15 +23,15 @@
                      <font>
                         <Font name="System Bold" size="15.0" />
                      </font></Button>
-                        <Button layoutX="76.0" layoutY="210.0" mnemonicParsing="false" onAction="#EditUserButtonClick" prefHeight="40.0" prefWidth="526.0" text="Alteração">
+                        <Button layoutX="76.0" layoutY="210.0" mnemonicParsing="false" onAction="#EditPublicationButtonClick" prefHeight="40.0" prefWidth="526.0" text="Alteração">
                      <font>
                         <Font name="System Bold" size="15.0" />
                      </font></Button>
-                        <Button layoutX="76.0" layoutY="140.0" mnemonicParsing="false" onAction="#AllUsersButtonClick" prefHeight="40.0" prefWidth="526.0" text="Consulta">
+                        <Button layoutX="76.0" layoutY="140.0" mnemonicParsing="false" onAction="#AllPublicationsButtonClick" prefHeight="40.0" prefWidth="526.0" text="Consulta">
                      <font>
                         <Font name="System Bold" size="15.0" />
                      </font></Button>
-                        <Button layoutX="76.0" layoutY="280.0" mnemonicParsing="false" onAction="#DeleteUserButtonClick" prefHeight="40.0" prefWidth="526.0" text="Exclusão">
+                        <Button layoutX="76.0" layoutY="280.0" mnemonicParsing="false" onAction="#DeletePublicationButtonClick" prefHeight="40.0" prefWidth="526.0" text="Exclusão">
                      <font>
                         <Font name="System Bold" size="15.0" />
                      </font></Button>
