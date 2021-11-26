@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="500.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.librarycontrolfx.controllers.CreatePublicationController">
+<children>
+    <SplitPane dividerPositions="0.15843270868824533" layoutX="-3.0" layoutY="1.0" orientation="VERTICAL" prefHeight="500.0" prefWidth="706.0">
+        <items>
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="152.0" prefWidth="579.0">
+                <children>
+                    <Button layoutX="6.0" layoutY="10.0" mnemonicParsing="false" onAction="#returnButton" text="&lt;-Voltar" />
+                    <Label layoutX="262.0" layoutY="21.0" text="Cadastrar Publicação">
+                        <font>
+                            <Font size="23.0" />
+                        </font></Label>
+                </children>
+            </AnchorPane>
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="342.0" prefWidth="552.0">
+                <children>
+                    <Button layoutX="247.0" layoutY="300.0" mnemonicParsing="false" onAction="#onCreateButton" prefHeight="38.0" prefWidth="209.0" text="Cadastrar">
+                     <font>
+                        <Font size="17.0" />
+                     </font></Button>
+                    <TextField fx:id="titleField" layoutX="247.0" layoutY="113.0" prefHeight="34.0" prefWidth="209.0" />
+                    <TextField fx:id="authorField" layoutX="247.0" layoutY="174.0" prefHeight="34.0" prefWidth="209.0" />
+                    <Label layoutX="247.0" layoutY="95.0" prefHeight="17.0" prefWidth="74.0" text="Título" />
+                    <Label layoutX="247.0" layoutY="156.0" text="Autor" />
+                    <Label fx:id="successMessage" layoutX="231.0" layoutY="360.0" prefHeight="17.0" prefWidth="242.0" />
+                  <Label layoutX="250.0" layoutY="220.0" text="Quantidade" />
+                  <TextField fx:id="quantityField" layoutX="247.0" layoutY="237.0" prefHeight="34.0" prefWidth="209.0" />
+                </children></AnchorPane>
+        </items>
+    </SplitPane>
+</children>
+</AnchorPane>
