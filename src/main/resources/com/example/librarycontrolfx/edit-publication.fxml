@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="500.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.librarycontrolfx.controllers.EditPublicationController">
+<children>
+    <SplitPane dividerPositions="0.15843270868824533" layoutX="-3.0" layoutY="1.0" orientation="VERTICAL" prefHeight="500.0" prefWidth="706.0">
+        <items>
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="152.0" prefWidth="579.0">
+                <children>
+                    <Button layoutX="3.0" layoutY="15.0" mnemonicParsing="false" onAction="#returnButton" text="&lt;- Voltar" />
+                    <Label layoutX="240.0" layoutY="13.0" text="Editar Publicação">
+                        <font>
+                            <Font size="23.0" />
+                        </font></Label>
+                </children>
+            </AnchorPane>
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="271.0" prefWidth="522.0">
+                <children>
+                    <Button layoutX="230.0" layoutY="230.0" mnemonicParsing="false" onAction="#EditButton" prefHeight="34.0" prefWidth="164.0" text="Salvar">
+                     <font>
+                        <Font size="15.0" />
+                     </font></Button>
+                    <TextField fx:id="titleField" layoutX="230.0" layoutY="81.0" prefHeight="25.0" prefWidth="164.0" />
+                    <TextField fx:id="authorField" layoutX="230.0" layoutY="135.0" prefHeight="25.0" prefWidth="164.0" />
+                    <TextField fx:id="quantityField" layoutX="230.0" layoutY="189.0" prefHeight="25.0" prefWidth="164.0" />
+                    <Label layoutX="230.0" layoutY="63.0" text="Título" />
+                    <Label layoutX="230.0" layoutY="116.0" text="Autor" />
+                    <Label layoutX="230.0" layoutY="170.0" text="Quantidade" />
+                    <Label fx:id="successMessage" layoutX="230.0" layoutY="275.0" prefHeight="17.0" prefWidth="290.0" />
+                    <ChoiceBox fx:id="publicationsList" layoutX="230.0" layoutY="22.0" prefHeight="25.0" prefWidth="164.0" />
+                    <Label layoutX="230.0" layoutY="6.0" text="Selecione a publicação para editar" />
+                </children></AnchorPane>
+        </items>
+    </SplitPane>
+</children>
+</AnchorPane>
