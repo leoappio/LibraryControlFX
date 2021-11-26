@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="500.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.librarycontrolfx.controllers.AllPublicationsController">
+    <children>
+        <SplitPane dividerPositions="0.15843270868824533" layoutX="-3.0" layoutY="1.0" orientation="VERTICAL" prefHeight="500.0" prefWidth="700.0">
+            <items>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="152.0" prefWidth="579.0">
+                    <children>
+                        <Button layoutX="3.0" layoutY="15.0" mnemonicParsing="false" onAction="#returnButton" text="&lt;- Voltar" />
+                        <Label layoutX="230.0" layoutY="13.0" prefHeight="38.0" prefWidth="255.0" text="Todas as Publicações">
+                            <font>
+                                <Font size="23.0" />
+                            </font></Label>
+                    </children>
+                </AnchorPane>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="271.0" prefWidth="522.0">
+                    <children>
+                        <ListView fx:id="publicationsList" layoutX="14.0" layoutY="24.0" prefHeight="388.0" prefWidth="682.0" />
+                        <Label layoutX="21.0" layoutY="5.0" text="ID  -  TITULO  -  AUTOR  -  QUANTIDADE" />
+                    </children></AnchorPane>
+            </items>
+        </SplitPane>
+    </children>
+</AnchorPane>
