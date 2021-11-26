@@ -11,7 +11,7 @@
                 <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="152.0" prefWidth="579.0">
                     <children>
                         <Button layoutX="8.0" layoutY="3.0" mnemonicParsing="false" onAction="#returnButton" text="&lt;- Voltar" />
-                        <Label layoutX="213.0" layoutY="16.0" text="Movimentações">
+                        <Label layoutX="213.0" layoutY="16.0" text="Relatórios">
                             <font>
                                 <Font name="System Italic" size="29.0" />
                             </font></Label>
@@ -19,14 +19,19 @@
                 </AnchorPane>
                 <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="438.0" prefWidth="705.0">
                     <children>
-                        <Button layoutX="76.0" layoutY="70.0" mnemonicParsing="false" onAction="#LoanButtonClick" prefHeight="40.0" prefWidth="526.0" text="Empréstimo">
+                        <Button layoutX="76.0" layoutY="75.0" mnemonicParsing="false" onAction="#LoanButtonClick" prefHeight="40.0" prefWidth="526.0" text="Carteira de Usuário">
                      <font>
                         <Font name="System Bold" size="15.0" />
                      </font></Button>
-                        <Button layoutX="76.0" layoutY="180.0" mnemonicParsing="false" onAction="#returnLoanButtonClick" prefHeight="40.0" prefWidth="526.0" text="Devolução">
+                        <Button layoutX="76.0" layoutY="175.0" mnemonicParsing="false" onAction="#returnLoanButtonClick" prefHeight="40.0" prefWidth="526.0" text="Balanço de Acervo">
                      <font>
                         <Font name="System Bold" size="15.0" />
                      </font></Button>
+                  <Button layoutX="75.0" layoutY="270.0" mnemonicParsing="false" onAction="#returnLoanButtonClick" prefHeight="40.0" prefWidth="526.0" text="Balanço de Movimentações">
+                     <font>
+                        <Font name="System Bold" size="15.0" />
+                     </font>
+                  </Button>
                     </children></AnchorPane>
             </items>
         </SplitPane>

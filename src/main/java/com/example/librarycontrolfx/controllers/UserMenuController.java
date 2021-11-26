@@ -5,7 +5,7 @@ import javafx.event.ActionEvent;
 
 import java.io.IOException;
 
-public class ClientMenuController {
+public class UserMenuController {
 
     public void returnButton(ActionEvent e) throws IOException {
         HelloApplication.goToScreen("hello-view.fxml");

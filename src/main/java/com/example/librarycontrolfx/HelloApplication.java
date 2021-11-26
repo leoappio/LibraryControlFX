@@ -20,8 +20,8 @@ public class HelloApplication extends Application {
     }
 
     private static Scene getSceneByScreen(String screenName) throws IOException {
-        FXMLLoader fxmlAllClients = new FXMLLoader(HelloApplication.class.getResource(screenName));
-        Scene sceneToReturn = new Scene(fxmlAllClients.load(), 700, 500);
+        FXMLLoader fxml = new FXMLLoader(HelloApplication.class.getResource(screenName));
+        Scene sceneToReturn = new Scene(fxml.load(), 700, 500);
         return sceneToReturn;
     }
 
