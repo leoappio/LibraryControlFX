@@ -24,7 +24,7 @@
                         <Font size="14.0" />
                      </font></Button>
                         <Label layoutX="264.0" layoutY="26.0" text="Selecione o usuário para apagar" />
-                        <Label fx:id="successMessage" layoutX="160.0" layoutY="139.0" />
+                        <Label fx:id="successMessage" layoutX="254.0" layoutY="173.0" prefHeight="17.0" prefWidth="203.0" />
                         <ChoiceBox fx:id="usersList" layoutX="274.0" layoutY="50.0" prefWidth="150.0" />
                     </children></AnchorPane>
             </items>
