@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="500.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.librarycontrolfx.controllers.CreateLoanController">
+    <children>
+        <SplitPane dividerPositions="0.15843270868824533" layoutX="-3.0" layoutY="1.0" orientation="VERTICAL" prefHeight="500.0" prefWidth="700.0">
+            <items>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="152.0" prefWidth="579.0">
+                    <children>
+                        <Button layoutX="3.0" layoutY="15.0" mnemonicParsing="false" onAction="#returnButton" text="&lt;- Voltar" />
+                        <Label layoutX="245.0" layoutY="21.0" text="Realizar Empréstimo">
+                            <font>
+                                <Font size="23.0" />
+                            </font></Label>
+                    </children>
+                </AnchorPane>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="271.0" prefWidth="522.0">
+                    <children>
+                        <Button layoutX="205.0" layoutY="129.0" mnemonicParsing="false" onAction="#realizeLoanButton" prefHeight="34.0" prefWidth="263.0" text="Emprestar">
+                     <font>
+                        <Font size="16.0" />
+                     </font></Button>
+                        <Label fx:id="successMessage" layoutX="205.0" layoutY="190.0" prefHeight="17.0" prefWidth="319.0" />
+                        <ChoiceBox fx:id="usersList" layoutX="141.0" layoutY="75.0" prefHeight="25.0" prefWidth="153.0" />
+                        <Label layoutX="141.0" layoutY="57.0" text="Selecione o usuário" />
+                        <ChoiceBox fx:id="publicationsList" layoutX="382.0" layoutY="75.0" prefHeight="25.0" prefWidth="153.0" />
+                        <Label layoutX="382.0" layoutY="57.0" text="Selecione a publicação" />
+                    </children></AnchorPane>
+            </items>
+        </SplitPane>
+    </children>
+</AnchorPane>
