@@ -19,15 +19,15 @@
                 </AnchorPane>
                 <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="438.0" prefWidth="705.0">
                     <children>
-                        <Button layoutX="76.0" layoutY="75.0" mnemonicParsing="false" onAction="#LoanButtonClick" prefHeight="40.0" prefWidth="526.0" text="Carteira de Usuário">
+                        <Button layoutX="76.0" layoutY="75.0" mnemonicParsing="false" onAction="#UserCardButtonClick" prefHeight="40.0" prefWidth="526.0" text="Carteira de Usuário">
                      <font>
                         <Font name="System Bold" size="15.0" />
                      </font></Button>
-                        <Button layoutX="76.0" layoutY="175.0" mnemonicParsing="false" onAction="#returnLoanButtonClick" prefHeight="40.0" prefWidth="526.0" text="Balanço de Acervo">
+                        <Button layoutX="76.0" layoutY="175.0" mnemonicParsing="false" onAction="#collectionBalanceButton" prefHeight="40.0" prefWidth="526.0" text="Balanço de Acervo">
                      <font>
                         <Font name="System Bold" size="15.0" />
                      </font></Button>
-                  <Button layoutX="75.0" layoutY="270.0" mnemonicParsing="false" onAction="#returnLoanButtonClick" prefHeight="40.0" prefWidth="526.0" text="Balanço de Movimentações">
+                  <Button layoutX="75.0" layoutY="270.0" mnemonicParsing="false" onAction="#movementsBalanceButton" prefHeight="40.0" prefWidth="526.0" text="Balanço de Movimentações">
                      <font>
                         <Font name="System Bold" size="15.0" />
                      </font>

@@ -10,11 +10,14 @@ public class ReportsMenuController {
     public void returnButton(ActionEvent e) throws IOException {
         HelloApplication.goToScreen("hello-view.fxml");
     }
-    public void LoanButtonClick(ActionEvent e) throws IOException {
-        HelloApplication.goToScreen("create-loan.fxml");
+    public void UserCardButtonClick(ActionEvent e) throws IOException {
+        HelloApplication.goToScreen("user-card.fxml");
     }
 
-    public void returnLoanButtonClick(ActionEvent e) throws IOException {
-        HelloApplication.goToScreen("return-loan.fxml");
+    public void collectionBalanceButton(ActionEvent e) throws IOException {
+        HelloApplication.goToScreen("collection-balance.fxml");
+    }
+    public void movementsBalanceButton(ActionEvent e) throws IOException {
+        HelloApplication.goToScreen("movements-balance.fxml");
     }
 }
