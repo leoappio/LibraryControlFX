@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="500.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.librarycontrolfx.controllers.MovementsBalanceController">
+    <children>
+        <SplitPane dividerPositions="0.15843270868824533" layoutX="-3.0" layoutY="1.0" orientation="VERTICAL" prefHeight="500.0" prefWidth="707.0">
+            <items>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="49.0" prefWidth="499.0">
+                    <children>
+                        <Button layoutX="3.0" layoutY="15.0" mnemonicParsing="false" onAction="#returnButton" text="&lt;- Voltar" />
+                        <Label layoutX="213.0" layoutY="23.0" text="Balanço de Movimentações">
+                            <font>
+                                <Font size="23.0" />
+                            </font></Label>
+                    </children>
+                </AnchorPane>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="407.0" prefWidth="537.0">
+                    <children>
+                        <ListView fx:id="publicationsList" layoutX="14.0" layoutY="130.0" prefHeight="281.0" prefWidth="681.0" />
+                        <Label layoutX="21.0" layoutY="110.0" text="10 livros mais emprestados:" />
+                        <Label fx:id="totalUsers" layoutX="15.0" layoutY="14.0" text="Total de usuários: xx" />
+                        <Label fx:id="totalPublications" layoutX="15.0" layoutY="39.0" text="Total de publicações no acervo: xx" />
+                        <Label fx:id="totalLoans" layoutX="15.0" layoutY="69.0" text="Total de empréstimos no mês: xx" />
+                        <Label fx:id="averageLateDays" layoutX="324.0" layoutY="69.0" text="Média de tempo de atraso na devolução dos livros: xx" />
+                        <Label fx:id="averageLoans" layoutX="320.0" layoutY="14.0" text="Média de movimentações por usuario: xx" />
+                    </children></AnchorPane>
+            </items>
+        </SplitPane>
+    </children>
+</AnchorPane>

@@ -11,7 +11,7 @@
                 <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="152.0" prefWidth="579.0">
                     <children>
                         <Button layoutX="3.0" layoutY="15.0" mnemonicParsing="false" onAction="#returnButton" text="&lt;- Voltar" />
-                        <Label layoutX="230.0" layoutY="13.0" prefHeight="38.0" prefWidth="255.0" text="Todas as Publicações">
+                        <Label layoutX="230.0" layoutY="13.0" prefHeight="38.0" prefWidth="255.0" text="Balanço de Acervo">
                             <font>
                                 <Font size="23.0" />
                             </font></Label>
